@@ -1,0 +1,12 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Chat Bubbles -->
+  <g fill="none" stroke="currentColor" stroke-width="3">
+    <!-- Left Bubble -->
+    <path d="M20 40 C20 30 30 20 45 20 L55 20 C70 20 80 30 80 40 L80 50 C80 60 70 70 55 70 L50 70 L40 80 L40 70 L45 70 C30 70 20 60 20 50 Z"/>
+    
+    <!-- Small Bubbles -->
+    <circle cx="40" cy="45" r="4" fill="currentColor"/>
+    <circle cx="50" cy="45" r="4" fill="currentColor"/>
+    <circle cx="60" cy="45" r="4" fill="currentColor"/>
+  </g>
+</svg>
