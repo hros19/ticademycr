@@ -1,4 +1,4 @@
-import { FaCalendarAlt } from "react-icons/fa";
+import { BiCalendar } from "react-icons/bi";
 import UNA from '../../assets/ticademy/Logo-UNA-Rojo_FondoTransparente.png';
 import TEC from '../../assets/ticademy/Logo-TEC-Color.png';
 import UCR from '../../assets/ticademy/UCR-232x300.png';
@@ -11,7 +11,7 @@ function Dates() {
           {/* Cuadrado responsive con altura ajustada */}
           <div
             className="flex flex-col items-center justify-center w-1/2 h-full bg-customMaroon rounded-2xl hover: bg-hoverMaroon">
-            <FaCalendarAlt size={300} color="white" />
+            <BiCalendar size={300} color="white" />
             <h1 className="text-white mt-10 text-3xl sm:text-4xl md:text-5xl font-bold">Fechas importantes</h1>
           </div>
           {/* Cuadrado 2*/}
@@ -20,7 +20,7 @@ function Dates() {
           <div className="flex flex-col p-4 gap-5 ml-28 w-1/2 justify-center">
             <div className="flex flex-row gap-3">      
               <div className="flex flex-row bg-customMaroon p-4 rounded-3xl w-[10%] sm:w-[13%] md:w-[12%] justify-center">
-                <FaCalendarAlt size={50} className="text-orange-700" />
+                <BiCalendar size={50} className="text-orange-700" />
               </div>
               <div className="flex flex-col justify-center">
                 <h1 className="text-black text-2xl font-bold">Inicio de clases</h1>
@@ -29,7 +29,7 @@ function Dates() {
             </div>
             <div className="flex flex-row gap-3">      
               <div className="flex flex-row bg-customMaroon p-4 rounded-3xl w-[10%] sm:w-[13%] md:w-[12%] justify-center">
-                <FaCalendarAlt size={50} className="text-orange-700" />
+                <BiCalendar size={50} className="text-orange-700" />
               </div>
               <div className="flex flex-col justify-center">
                 <h1 className="text-black text-2xl font-bold">Finalización del curso</h1>
