@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        customMaroon: "#4a192c",
+        hoverMaroon: "#6b2b3e"
+      },
+    },
   },
   plugins: [],
 }

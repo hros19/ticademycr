@@ -1,12 +1,13 @@
 import { useState } from 'react'
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import SchedulesAndCurriculum from './components/Schedules&Curriculum/Schedules&Curriculum'
 
-function App() {
+function Home() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="min-h-screen bg-gray-100 py-12 px-4">
-      <div className="max-w-4xl mx-auto">
-        
+    <div className="h-screen bg-gray-100 flex items-center justify-center">
+      <div className="max-w-4xl mx-auto w-full">
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
@@ -47,9 +48,37 @@ function App() {
             <p className="text-orange-600">Probando diferentes colores</p>
           </div>
         </div>
-
       </div>
     </div>
+  )
+}
+
+// Componente About
+function About() {
+  return (
+    <div className="h-screen bg-gray-100 flex items-center justify-center">
+      <div className="max-w-4xl mx-auto text-center">
+        <h1 className="text-4xl font-bold text-gray-900 mb-4">Sobre Nosotros</h1>
+        <p className="text-gray-600">Esta es la página About</p>
+      </div>
+    </div>
+  )
+}
+
+// Componente principal App
+function App() {
+  return (
+    <BrowserRouter>
+      <div className="h-screen flex flex-col">
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/Schedules-Curriculum" element={<SchedulesAndCurriculum />} />
+          </Routes>
+        </main>
+      </div>
+    </BrowserRouter>
   )
 }
 
