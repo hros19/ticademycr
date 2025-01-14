@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroSection = ({ imageUrl, heading, paragraph, buttonText }) => {
   return (
-    <div className="relative w-full min-h-[500px] md:min-h-[600px] lg:min-h-[700px] xl:min-h-screen overflow-hidden">
+    <div className="relative w-screen min-h-[500px] md:min-h-[600px] lg:min-h-[700px] xl:min-h-screen overflow-hidden">
       {/* Imagen de fondo */}
       <img
         src={imageUrl}

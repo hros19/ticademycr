@@ -5,7 +5,7 @@ import UCR from '../../assets/ticademy/UCR-232x300.png';
 
 function Dates() {
   return (
-    <div className="flex items-center justify-center overflow-hidden overflow-x-hidden">
+    <div className="flex items-center justify-center w-full">
       <div className="w-full max-w-[75vw] h-[80vh] mt-10 flex flex-col justify-between rounded-2xl shadow-[4px_4px_10px_rgba(0,0,0,0.5)]">
         <div className="flex flex-row h-full">
           {/* Cuadrado responsive con altura ajustada */}

@@ -1,0 +1,33 @@
+import React from 'react';
+import { FaRegClock } from "react-icons/fa";
+
+const Groups = () => {
+  return (
+    <div className="flex flex-col items-center justify-center overflow-hidden overflow-x-hidden px-4 sm:px-6 lg:px-8 h-screen">
+      <h1 className="text-customMaroon mt-10 text-3xl sm:text-4xl md:text-5xl font-bold text-center">Grupos</h1>
+
+      <div className="w-full mt-10 flex flex-col sm:flex-row gap-10 justify-center rounded-2xl h-full">
+        {/* Cuadrado 1*/}
+        <div className="flex flex-col items-center justify-center w-full sm:w-[30%] h-[50%] sm:h-[60%] bg-customMaroon rounded-lg hover:bg-hoverMaroon transition-all duration-300 p-4">
+          <FaRegClock size="40%" color="white" />
+          <h1 className="text-orange-700 mt-4 text-xl sm:text-3xl font-bold">Viernes</h1>
+          <h1 className="text-white mt-4 text-xl sm:text-3xl font-bold">6pm - 9pm</h1>
+        </div>
+        {/* Cuadrado 2*/}
+        <div className="flex flex-col items-center justify-center w-full sm:w-[30%] h-[50%] sm:h-[60%] bg-customMaroon rounded-lg hover:bg-hoverMaroon transition-all duration-300 p-4">
+          <FaRegClock size="40%" color="white" />
+          <h1 className="text-orange-700 mt-4 text-xl sm:text-3xl font-bold">Sábados</h1>
+          <h1 className="text-white mt-4 text-xl sm:text-3xl font-bold">6pm - 9pm</h1>
+        </div>
+        {/* Cuadrado 3*/}
+        <div className="flex flex-col items-center justify-center w-full sm:w-[30%] h-[50%] sm:h-[60%] bg-customMaroon rounded-lg hover:bg-hoverMaroon transition-all duration-300 p-4">
+          <FaRegClock size="40%" color="white" />
+          <h1 className="text-orange-700 mt-4 text-xl sm:text-3xl font-bold">Domingos</h1>
+          <h1 className="text-white mt-4 text-xl sm:text-3xl font-bold">6pm - 9pm</h1>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Groups;
