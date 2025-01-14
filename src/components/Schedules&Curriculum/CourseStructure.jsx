@@ -14,7 +14,7 @@ const CourseStructure = ({ Weeks }) => {
           {/* Título del curso */}
           <div className="flex items-center mb-4 sm:mb-0 sm:mr-6">
             <div className="flex items-center justify-center bg-customMaroon h-16 w-16 sm:h-20 sm:w-20 rounded-xl text-white">
-              {/* Puedes añadir un ícono aquí si es necesario */}
+              {Week.icon && <Week.icon size={32} />}
             </div>
           </div>
           <div className="flex flex-col w-full">
