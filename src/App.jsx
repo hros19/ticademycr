@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import HeroSection from './components/HeroSection.jsx'
-import PagIniSA from './components/PagIniSA.jsx'
 import { Routes, Route, Link } from 'react-router-dom'
 
 function App() {
@@ -8,7 +7,6 @@ function App() {
     <div className="min-h-screen bg-gray-100 w-full">
       {/* Navbar, pendiente de agregar el otro */}
       <HeroSection></HeroSection>
-      <PagIniSA></PagIniSA>
       <nav className="bg-white shadow-md w-full">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
