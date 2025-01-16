@@ -6,7 +6,7 @@ function HeroSection() {
   return (
     <div
       style={{ backgroundImage: `url(${graduacionImg})` }}
-      className="select-none bg-center bg-cover h-screen w-full content-center px-10 sm:px-20 md:px-40"
+      className="select-none bg-center bg-cover h-screen w-screen content-center px-10 sm:px-20 md:px-40"
     >
       <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-extrabold font-Poppins">
         Abre las puertas de tu <br /> futuro universitario
