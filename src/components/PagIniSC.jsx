@@ -1,5 +1,4 @@
-import users from '../assets/ticademy/users.svg';
-import calendario from '../assets/ticademy/calendar-clock.svg';
+import { Users, Calendar } from "lucide-react";
 
 function PagIniSC() {
   return (
@@ -12,7 +11,7 @@ function PagIniSC() {
 
       <div className="w-full max-w-[80vw] bg-white rounded-3xl p-6 mb-6">
         <div className=" flex items-center">
-          <img src={calendario} alt="Calendar icon" className="w-16 h-16 mb-4" />
+          <Calendar stroke="#4A192C" alt="Calendar icon" className="w-16 h-16 mb-4" />
           <h2 className="mx-5 text-black text-lg sm:text-xl md:text-2xl font-semibold font-Poppins mb-2">
             Horarios flexibles
           </h2>
@@ -27,7 +26,7 @@ function PagIniSC() {
 
       <div className="w-full max-w-[80vw] bg-white rounded-3xl p-6 mb-6">
         <div className=" flex items-center">
-          <img src={users} alt="Users icon" className="w-16 h-16 mb-4" />
+          <Users stroke="#4A192C" alt="Users icon" className="w-16 h-16 mb-4" />
           <h2 className="mx-5 text-black text-lg sm:text-xl md:text-2xl font-semibold font-Poppins mb-2">
             Planes accesibles
           </h2>
