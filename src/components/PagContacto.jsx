@@ -99,11 +99,11 @@ function PagContacto() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 px-4 py-8">
       <div className="w-full max-w-4xl mx-auto">
-        <h1 className="text-3xl font-normal text-center mb-8 text-gray-700">
+        <h1 className="text-3xl font-normal font-Poppins select-none text-center mb-8 text-gray-700">
           Inscripción de estudiantes
         </h1>
         <div className="w-full md:w-[70vw] max-w-4xl bg-[#4A192C] rounded-lg p-4 md:p-6 mb-6">
-          <label className="block text-white text-sm mb-2">Horario curso</label>
+          <label className="block text-white select-none text-sm font-Poppins mb-2">Horario curso</label>
           <div className="relative">
             <Calendar className="absolute left-3 top-3 text-gray-400 w-5 h-5" />
             <select
@@ -128,7 +128,7 @@ function PagContacto() {
 
         <div className="flex flex-col items-center w-full">
           <div className="w-full md:w-[70vw] max-w-4xl bg-[#EBE4E4] rounded-lg p-4 md:p-6">
-            <h2 className="text-lg font-medium mb-4 text-gray-700">Datos personales</h2>
+            <h2 className="text-lg font-Poppins select-none font-medium mb-4 text-gray-700">Datos personales</h2>
             <form onSubmit={handleSubmit} className="space-y-4">
               <div className="relative">
                 <User className="absolute left-3 top-3 text-gray-400 w-5 h-5" />
