@@ -3,7 +3,7 @@ import demoFoto from "../assets/ticademy/demo examen demo.png"
 
 function PagIniSB() {
   return (
-    <div className="flex flex-col items-center justify-center bg-white">
+    <div className="mb-10 flex flex-col items-center justify-center bg-white">
       <h1 className="text-[#2A0800] text-xl sm:text-3xl md:text-5xl font-bold font-Poppins text-center">
         Domina el examen de admisión
       </h1>
@@ -25,7 +25,6 @@ function PagIniSB() {
       <div
         style={{ backgroundImage: `url(${demoFoto})` }}
         className="hidden lg:block rounded-xl m-10 w-[80vw] h-[80vh] select-none bg-center bg-cover content-center px-10 sm:px-20 md:px-40">
-
       </div>
     </div>
   )
