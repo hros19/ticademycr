@@ -10,7 +10,7 @@ function HeroSection() {
       style={{ backgroundImage: `url(${graduacionImg})` }}
       className="select-none bg-center bg-cover h-screen w-screen content-center px-10 sm:px-20 md:px-40 relative"
     >
-      <div className="absolute inset-0 bg-black bg-opacity-50 sm:bg-opacity-0"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-50 lg:bg-opacity-0"></div>
       <div className="relative z-10">
         <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-extrabold font-Poppins">
           Abre las puertas de tu <br /> futuro universitario
