@@ -2,7 +2,7 @@ import React from 'react';
 
 const CourseStructure = ({ Weeks }) => {
   return (
-    <div className="flex flex-col items-center px-4 sm:px-6 lg:px-8 h-screen">
+    <div className="flex flex-col items-center px-4 sm:px-6 lg:px-8">
       <h1 className="text-customMaroon mt-10 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center">
         Estructura del curso
       </h1>
@@ -25,7 +25,7 @@ const CourseStructure = ({ Weeks }) => {
               </h1>
             </div>
             {/* Lista de contenidos */}
-            <ul className="list-disc ml-6 sm:ml-10">
+            <ul className="list-disc ml-6 sm:ml-10 p-5">
               {Week.contents.map((content, contentIndex) => (
                 <li
                   key={contentIndex}
