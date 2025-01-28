@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { Header } from './Header';
-import PlanSelector from './PlanSelector';
-import FeaturesList from './FeaturesList';
-import PrivateFeatures from './PrivateFeatures';
-import PricingCard from './PrincingCard';
+import { Header } from '../PrincingPlans/Header';
+import PlanSelector from '../PrincingPlans/PlanSelector';
+import FeaturesList from '../PrincingPlans/FeaturesList';
+import PrivateFeatures from '../PrincingPlans/PrivateFeatures';
+import PricingCard from '../PrincingPlans/PrincingCard';
+import SignupSection from '../Schedules&Curriculum/SingUpSection'
 
 const PricingPlans = () => {
   const [selectedPlan, setSelectedPlan] = useState('monthly');
@@ -70,6 +71,7 @@ const PricingPlans = () => {
         )}
         </div>
       </div>
+      <SignupSection/>
     </div>
   );
 };

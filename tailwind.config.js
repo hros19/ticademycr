@@ -6,6 +6,10 @@ export default {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
+      colors: {
+        customMaroon: "#4a192c",
+        hoverMaroon: "#6b2b3e"
+      },
     },
   },
   plugins: [],

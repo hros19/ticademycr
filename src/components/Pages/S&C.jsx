@@ -1,11 +1,10 @@
 import React from 'react';
-import HeroSection from './HeroSection';
-import Dates from './Dates';
-import Groups from './Groups'
-import CourseStructure from './CourseStructure'
-import FrequentQuestions from './FrequentQuestions'
-import SignupSection from './SingUpSection'
-
+import HeroSection from '../Schedules&Curriculum/HeroSection';
+import Dates from '../Schedules&Curriculum/Dates';
+import Groups from '../Schedules&Curriculum/Groups'
+import CourseStructure from '../Schedules&Curriculum/CourseStructure'
+import FrequentQuestions from '../Schedules&Curriculum/FrequentQuestions'
+import SignupSection from '../Schedules&Curriculum/SingUpSection'
 import imageUrl from "../../assets/ticademy/pexels-fauxels-3184405.jpg";
 import { FileText, BrainCircuit, ClipboardCheck, FunctionSquare } from 'lucide-react';
 
@@ -56,22 +55,21 @@ const questions = [
 
 
 const SchedulesAndCurriculum = () => {
-  return (
-    <div className="w-screen">
-      <HeroSection
-        imageUrl={imageUrl}
-        heading="Prepárate para tu Futuro"
-        paragraph="Programa especializado de preparación para exámenes de admisión universitaria"
-        buttonText="¡Inscríbase Ahora!"
-      />
-      <Dates/>
-      <Groups/>
-      <CourseStructure Weeks={weeks}/>
-      <FrequentQuestions Questions={questions}/>
-      <SignupSection/>
-      
-    </div>
-  );
+    return (
+      <div className="w-full overflow-x-hidden space-y-16"> {/* Cambiado w-screen por w-full */}
+        <HeroSection
+          imageUrl={imageUrl}
+          heading="Prepárate para tu Futuro"
+          paragraph="Programa especializado de preparación para exámenes de admisión universitaria"
+          buttonText="¡Inscríbase Ahora!"
+        />
+        <Dates/>
+        <Groups/>
+        <CourseStructure Weeks={weeks}/>
+        <FrequentQuestions Questions={questions}/>
+        <SignupSection/>
+      </div>
+    );
 };
 
 export default SchedulesAndCurriculum;
