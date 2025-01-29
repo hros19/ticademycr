@@ -1,31 +1,27 @@
 import { useState } from 'react'
 import HeroSection from './components/HeroSection.jsx'
 import { Routes, Route, Link } from 'react-router-dom'
-import Navbar from './components/Navbar/Navbar.jsx'
-import PPlans from './components/Pages/PPlans.jsx'
-import SC from './components/Pages/S&C.jsx'
-
-import HS from './components/HeroSection.jsx'
-import Contact from './components/Pages/PagContacto.jsx'
-import SA from './components/Pages/PagIniSA.jsx'
-import SB from './components/Pages/PagIniSB.jsx'
-import SCC from './components/Pages/PagIniSC.jsx'
-
-
 
 function App() {
   return (
-    <div className='bg-white'>
-      <Navbar></Navbar>
-      <Routes>
-        <Route path="/pplans" element={<PPlans />} />
-        <Route path="/sc" element={<SC />} />
-        <Route path="/hs" element={<HS />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/sa" element={<SA/>} />
-        <Route path="/sb" element={<SB/>} />
-        <Route path="/scc" element={<SCC/>} />
-      </Routes>
+    <div className="min-h-screen bg-gray-100 w-full">
+      {/* Navbar, pendiente de agregar el otro */}
+      <HeroSection></HeroSection>
+      <nav className="bg-white shadow-md w-full">
+        <div className="max-w-7xl mx-auto px-4 py-4">
+          <div className="flex justify-between items-center">
+            <Link to="/" className="text-xl font-bold text-blue-600">
+              Ticademy
+            </Link>
+            <Link
+              to="/admin"
+              className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md transition duration-200"
+            >
+              Admin
+            </Link>
+          </div>
+        </div>
+      </nav>
     </div>
   )
 }
