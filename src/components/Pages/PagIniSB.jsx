@@ -1,4 +1,4 @@
-import demoFoto from "../assets/ticademy/demo examen demo.png"
+import demoFoto from "../../assets/ticademy/demo examen demo.png"
 
 
 function PagIniSB() {

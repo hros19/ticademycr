@@ -1,10 +1,10 @@
-import logoUNA from "../assets/ticademy/image (7).png"
-import logoTEC from "../assets/ticademy/image (3).png"
-import logoUCR from "../assets/ticademy/image (6).png"
+import logoUNA from "../../assets/ticademy/image (7).png"
+import logoTEC from "../../assets/ticademy/image (3).png"
+import logoUCR from "../../assets/ticademy/image (6).png"
 
-import compu from "../assets/ticademy/pexels-julia-m-cameron-4144927.jpg"
-import materiales from "../assets/ticademy/pexels-cottonbro-4778611.jpg"
-import senior from "../assets/ticademy/pexels-vanessa-garcia-6325968.jpg"
+import compu from "../../assets/ticademy/pexels-julia-m-cameron-4144927.jpg"
+import materiales from "../../assets/ticademy/pexels-cottonbro-4778611.jpg"
+import senior from "../../assets/ticademy/pexels-vanessa-garcia-6325968.jpg"
 
 function PagIniSA() {
   return (
